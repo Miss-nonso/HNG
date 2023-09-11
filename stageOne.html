@@ -11,13 +11,16 @@
 <body>
     <div class="container">
         <div class="top">
-            <p id="currentDayOfTheWeek"></p>
-            <small id="currentUTCTime"></small>
+            <p data-testid="currentDayOfTheWeek" class="currentDayOfTheWeek"></p>
+
+            <small data-testid="currentUTCTime" class="currentUTCTime"></small>
         </div>
-        <div class="img-container"><img src="./me.jpg" alt="Nonso Daniels" id="slackDisplayImage"></div>
-        <p id="slackUserName">Nonso Daniels</p>
-        <p id="myTrack">FRONTEND TRACK</p>
-        <a href="#" id="githubURL">Github Repo</a>
+        <div class="img-container"><img src="./me.jpg" alt="Nonso Daniels" data-testid="slackDisplayImage"
+                class="slackDisplayImage"></div>
+        <p data-testid="slackUserName" class="slackUserName">Nonso Daniels</p>
+        <p data-testid="myTrack" class="myTrack">FRONTEND TRACK</p>
+        <a href="https://github.com/Miss-nonso/HNG.git" data-testid="githubURL" class="githubURL">Github Repo</a>
+
 
     </div>
     <script src="./stageOne.js"></script>

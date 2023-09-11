@@ -8,11 +8,11 @@ const daysOfTheWeek = [
   "Saturday",
 ];
 
-document.getElementById("currentDayOfTheWeek").innerHTML =
+document.querySelector(".currentDayOfTheWeek").innerHTML =
   daysOfTheWeek[new Date().getDay()];
 
 const timeUpdate = () => {
-  document.getElementById("currentUTCTime").innerHTML = new Date().getTime();
+  document.querySelector(".currentUTCTime").innerHTML = new Date().getTime();
 };
 
 setInterval(timeUpdate, 1);
